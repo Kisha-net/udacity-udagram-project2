@@ -3,9 +3,7 @@ Description: >
 Antoinette Akinyi
 
 Parameters:
-
     EnvironmentName:
-        Description: 
         Type: String
 
     VpcCIDR: 
