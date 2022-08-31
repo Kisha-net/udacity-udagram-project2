@@ -1,0 +1,1 @@
+aws cloudformation update-stack --stack-name udacity-project-2 --template-body file://projectUdacity2.yml  --parameters file://projectUdacity2.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
