@@ -1,6 +1,6 @@
 Description: >
 
-Antoinette Akinyi
+  Antoinette Akinyi
 
 Parameters:
 
@@ -29,11 +29,10 @@ Parameters:
         Default: 10.0.3.0/24
 
     AMItoUse:
-        Description: 
         Type: String
    
 
- Resources:
+Resources:
   VPC: 
       Type: AWS::EC2::VPC
       Properties:
