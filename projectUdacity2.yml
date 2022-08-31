@@ -4,6 +4,7 @@ Antoinette Akinyi
 
 Parameters:
     EnvironmentName:
+        Description: An environment name that will be prefixed to resource names
         Type: String
 
     VpcCIDR: 
