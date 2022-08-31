@@ -4,7 +4,7 @@ Antoinette Akinyi
 
 Parameters:
     EnvironmentName:
-        Description: An environment name that will be prefixed to resource names
+        Description: An environment name that will be prefixed to resource names upon creation
         Type: String
 
     VpcCIDR: 
