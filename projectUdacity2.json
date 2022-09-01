@@ -1,19 +1,11 @@
 [
     {
         "ParameterKey": "EnvironmentName",
-        "ParameterValue": "UdacityProject"
+        "ParameterValue": "UdagramProject"
     },
     {
         "ParameterKey": "VpcCIDR",
         "ParameterValue": "10.0.0.0/16"
-    },
-    {
-        "ParameterKey": "PublicSubnet1CIDR",
-        "ParameterValue": "10.0.0.0/24"
-    },
-    {
-        "ParameterKey": "PublicSubnet2CIDR",
-        "ParameterValue": "10.0.1.0/24"
     },
     {
         "ParameterKey": "PrivateSubnet1CIDR",
@@ -24,7 +16,15 @@
         "ParameterValue": "10.0.3.0/24"
     },
     {
-        "ParameterKey": "AMItoUse",
-        "ParameterValue": "ami-0ac73f33a1888c64a"
-      }
+        "ParameterKey": "PublicSubnet1CIDR",
+        "ParameterValue": "10.0.0.0/24"
+    },
+    {
+        "ParameterKey": "PublicSubnet2CIDR",
+        "ParameterValue": "10.0.1.0/24"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t3.small"
+    }
 ]
